@@ -1,4 +1,32 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   border-bottom: 1px solid #eedfdf;
-  background: #ffa41d;
+  background-color: #ffa41d;
 }
+
+.menu {
+  @media only screen and (max-width: 980px) {
+    position: absolute;
+    right: -110px;
+    top: 0;
+    
+    
+  }
+  
+  .menu__button {   
+    display: none;
+    @media only screen and (max-width: 980px) {
+      display: block;
+      background-color: #ffa41d;
+      border: 1px solid #fff;
+      border-radius: 30px;
+      
+
+      
+    }
+  }
+}
+

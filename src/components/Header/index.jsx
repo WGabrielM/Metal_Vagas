@@ -7,7 +7,12 @@ export default function Header() {
     <div>
         Logo aqui
     </div>
-    <div>
+    <div className="menu">
+        <button className="menu__button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
         <ul>
             <li>Link aqui</li>
             <li>Link aqui</li>

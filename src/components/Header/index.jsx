@@ -1,31 +1,16 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import "./style/Header.css";
 
-function abrirMenu() {
-  document.querySelector(".menu__button").addEventListener("click", () => {
-    document.querySelector(".menu__item").classList.add("ativo");
-  });
-}
-
-
 export default function Header() {
-  const activeSlideRef = useRef(null);
+  const buttonClick = () => {
+    document.querySelector(".menu__item").classList.add("ativo");
+  };
 
-  useEffect(() => {
-    if (activeSlideRef.current) {
-        activeSlideRef.current.scrollIntoView({
-          behavior: 'smooth',
-          block: 'nearest',
-          inline: 'nearest'
-        });
-    }
-  }, [activeSlide]);
-  
   return (
     <div className="header">
       <div>Logo aqui</div>
       <div className="menu">
-        <button className="menu__button" ref={i === activeSlide ? activeSlideRef : null}>
+        <button onClick={buttonClick} className="menu__button">
           <span></span>
           <span></span>
           <span></span>

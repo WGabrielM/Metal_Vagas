@@ -6,6 +6,9 @@
   border-bottom: 1px solid #eedfdf;
   background-color: #ffa41d;
 
+  width: 100vw;
+  height: 7vh;
+
   .logo {
     color: #fff;
     height: 0;

@@ -3,12 +3,12 @@ import "./style/Header.css";
 
 export default function Header() {
   const buttonClick = () => {
-    document.querySelector(".menu__item").classList.add("ativo");
+    document.querySelector(".menu__item").classList.toggle("ativo");
   };
 
   return (
     <div className="header">
-      <div>Logo aqui</div>
+      <div className="logo"><p>Logo</p></div>
       <div className="menu">
         <button onClick={buttonClick} className="menu__button">
           <span></span>

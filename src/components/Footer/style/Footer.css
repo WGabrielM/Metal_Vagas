@@ -1,0 +1,19 @@
+.footer {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+  bottom: 0;
+
+  color: #fff;
+  background-color: #ffa41d;
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}

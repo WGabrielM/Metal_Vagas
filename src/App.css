@@ -2,38 +2,25 @@
   display: block;
   margin: 0 auto;
   background: linear-gradient(180deg, #FFA41D 0%, rgba(225, 150, 38, 0.60) 100%);
-  width: 100%;
-  .home__title {
-    color: #fcfcfc;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 80px;
-    letter-spacing: 0.3px;
+  width: 100vw;
+  height: 100vh;
 
-    width: 1019px;
-    height: 486px;
-    flex-shrink: 0;
+  .home__title {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 236px;
   }
 
   .home__description {
-    color: #fff;
-    text-align: center;
-    font-family: Inter;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 571px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 189px;
   }
 
   .home__link {
-    width: 266px;
-    height: 53.398px;
-
-    border-radius: 20px;
+   
     background: linear-gradient(51deg, #ffa41d 0%, #ffad33 100%);
   }
 }

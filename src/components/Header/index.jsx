@@ -17,10 +17,10 @@ export default function Header() {
             <span></span>
           </button>
           <ul className="menu__item">
-            <li className="menu__item--link">O que fazemos</li>
-            <li className="menu__item--link">Para empresas</li>
-            <li className="menu__item--link">Para profissionais</li>
-            <li className="menu__item--link">Como funciona</li>
+            <li className="menu__item--link"> <a href="/whatwedo">O que fazemos</a></li>
+            <li className="menu__item--link"> <a href="">Para empresas</a></li>
+            <li className="menu__item--link"> <a href="">Para profissionais</a></li>
+            <li className="menu__item--link"> <a href="">Como funciona</a></li>
             <li className="menu__item--link">
               <span>Anunciar Vagas</span>
             </li>

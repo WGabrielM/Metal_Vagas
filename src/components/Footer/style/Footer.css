@@ -19,6 +19,7 @@
   height: 7vh;
 
   .footer__copy {
+    margin-left: 10px;
     p {
       span {
         font-weight: bold;
@@ -29,7 +30,7 @@
   .footer__social {
     display: flex;
     justify-content: space-between;
-    margin-right: 20px;
+    margin-right: 10px;
     width: 35vw;
   }
 

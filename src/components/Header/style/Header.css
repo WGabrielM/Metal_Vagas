@@ -18,7 +18,7 @@
   .menu {
     .menu__button {
       display: none;
-  
+
       @media screen and (max-width: 768px) {
         display: block;
         background-color: #ffa41d;
@@ -28,37 +28,36 @@
         width: 36px;
         height: 30px;
       }
-  
-      span {
-        background-color: #ffa41d;
-        color: #fff;
-        border-radius: 30px;
-        width: 24px;
-        height: 40px;
-        margin: 2px 5px 2px 0px;
+
+      .menu__button--target {
+        display: block;
+        position: absolute;
+        width: 22px;
+        height: 2px;
+        background-color: #fff;
       }
     }
-  
+
     .menu__item {
       background-color: #ffa41d;
       height: 140px;
       width: 135px;
       text-align: center;
-  
+
       .menu__item--link {
         padding: 5px;
         color: #fff;
-  
+
         span {
           border: 1px solid #fff;
         }
       }
-  
+
       @media screen and (max-width: 768px) {
         position: absolute;
         top: 47px;
         right: -140px;
-  
+
         &.ativo {
           right: 0;
         }
@@ -66,4 +65,3 @@
     }
   }
 }
-

@@ -12,9 +12,9 @@ export default function Header() {
         <div className="logo"><p>Logo</p></div>
         <div className="menu">
           <button onClick={buttonClick} className="menu__button">
-            <span></span>
-            <span></span>
-            <span></span>
+            <span className="menu__button--target"></span>
+            <span className="menu__button--target"></span>
+            <span className="menu__button--target"></span>
           </button>
           <ul className="menu__item">
             <li className="menu__item--link"> <a href="/whatwedo">O que fazemos</a></li>

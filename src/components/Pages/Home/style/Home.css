@@ -1,0 +1,46 @@
+.home {
+    color: #fff;
+    background: linear-gradient(180deg, #FFA41D 0%, rgba(225, 150, 38, 0.60) 100%);
+    display: block;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+  
+    .home__title {
+      display: block;
+  
+      font-weight: bold;
+      font-size: 34px;
+      text-align: center;
+  
+      width: 300px;
+      margin: 0 auto;
+      padding-top: 80px;
+      width: 236px;
+    }
+  
+    .home__description {
+      display: block;
+      font-size: 20px;
+      text-align: center;
+  
+      margin: 0 auto;
+      padding: 20px 0;
+      width: 189px;
+    }
+  
+    .home__link {
+      color: #fff;
+      background: linear-gradient(51deg, #ffa41d 0%, #ffad33 100%);
+      border-radius: 20px;
+      border: 0;
+      box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.76);
+  
+      position: absolute;
+      right: 123px;
+  
+      margin-top: 15px;
+      padding: 10px 40px;
+    }
+  }
+  

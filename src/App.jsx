@@ -1,14 +1,15 @@
-import React, { useState } from 'react'
-import './App.css'
+import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './components/Pages/Home'
+import NotFound from './components/Pages/NotFound'
 
 export default function App() {
   return (
-    <>
-      <div className='home'>
-        <h1 className='home__title'>A plataforma que conecta empresas e profissionais da Metalmecânica</h1>
-        <span className='home__description'>Milhares de profissionais esperando pela sua vaga.</span>
-        <button className='home__link'>Ver Mais</button>
-      </div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='*' element={<div>Página não encontrada</div>} />
+      </Routes>
+    </BrowserRouter>
   )
 }

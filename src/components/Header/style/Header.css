@@ -19,6 +19,19 @@
     .menu__button {
       display: none;
 
+      :nth-child(1) {
+        top: 16px;
+      }
+
+      :nth-child(2) {
+        top: 23px;
+      }
+      
+      :nth-child(3) {
+        top: 30px;
+      }
+
+
       @media screen and (max-width: 768px) {
         display: block;
         background-color: #ffa41d;

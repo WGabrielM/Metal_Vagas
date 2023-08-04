@@ -56,14 +56,19 @@
       height: 140px;
       width: 135px;
       text-align: center;
+      
+     
 
+     
       .menu__item--link {
         padding: 5px;
         color: #fff;
-
-        span {
-          border: 1px solid #fff;
+        
+        a {
+          color: #fff;
+          text-decoration: none;
         }
+
       }
 
       @media screen and (max-width: 768px) {

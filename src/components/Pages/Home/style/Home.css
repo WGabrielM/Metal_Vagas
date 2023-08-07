@@ -8,8 +8,9 @@
   
     .home__title {
       display: block;
-  
-      font-weight: bold;
+      
+      font-family: PoppinsBold;
+      font-weight: 500;
       font-size: 34px;
       text-align: center;
   
@@ -21,6 +22,7 @@
   
     .home__description {
       display: block;
+      font-family: PoppinsRegular;
       font-size: 20px;
       text-align: center;
   

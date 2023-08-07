@@ -23,7 +23,12 @@ export default function WhatWeDo() {
 
           <button className="whatwedo__resume--link">Ver Mais</button>
         </div>
-        <div className="whatwedo__video"></div>
+        <div className="whatwedo__video">
+          <video width="100%" controls autoPlay muted loop>
+            <source src="/src/videos/oquefazemos.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </div>
     </>
   );

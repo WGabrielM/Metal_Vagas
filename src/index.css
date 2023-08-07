@@ -44,8 +44,9 @@ table {
 
 // Fonts
 @font-face {
-    font-family: 'PoppinsRegular';
-    src: local('PoppinsRegular'), url(./fonts/Poppins/Poppins-Regular.ttf) format('ttf');
+    font-family: 'Poppins';
+    src: local('Poppins'), url(./fonts/Poppins/Poppins-Regular.ttf) format('ttf');
+    font-style: normal;
 }
 @font-face {
     font-family: 'PoppinsBold';

@@ -1,16 +1,30 @@
-import React from 'react'
-import "./style/WhatWeDo.css"
+import React from "react";
+import "./style/WhatWeDo.css";
 
 export default function WhatWeDo() {
   return (
     <>
-       <div className="whatwedo">
-            <div className="whatwedo__resume">
-                <h1 className='whatwedo__resume--title'>O que fazemos?</h1>
-                <span className='whatwedo__resume--subtile'>Somos uma Plataforma que conecta empresas da área industrial que precisam contratar mão de Obra, e os melhores Profissionais do Mercado.</span>
-                <p className='whatwedo__resume--text'>A plataforma surgiu devido as dificuldades para encontrar Mão de Obra qualificada com rapidez e assertividade. Os processos de seleção ficam cada dia mais complexos e demorados, por isso resolvemos criar algo simples e funcional , onde qualquer pessoa com um celular na mão consegue anunciar, acompanhar e medir o alcance da vaga.</p>
-            </div>
-       </div>
+      <div className="whatwedo">
+        <div className="whatwedo__resume">
+          <h1 className="whatwedo__resume--title">O que fazemos?</h1>
+          <span className="whatwedo__resume--subtitle">
+            Somos uma Plataforma que conecta empresas da área industrial que
+            precisam contratar mão de Obra, e os melhores Profissionais do
+            Mercado.
+          </span>
+          <p className="whatwedo__resume--text">
+            A plataforma surgiu devido as dificuldades para encontrar Mão de
+            Obra qualificada com rapidez e assertividade. Os processos de
+            seleção ficam cada dia mais complexos e demorados, por isso
+            resolvemos criar algo simples e funcional , onde qualquer pessoa com
+            um celular na mão consegue anunciar, acompanhar e medir o alcance da
+            vaga.
+          </p>
+
+          <button className="whatwedo__resume--link">Ver Mais</button>
+        </div>
+        <div className="whatwedo__video"></div>
+      </div>
     </>
-  )
+  );
 }

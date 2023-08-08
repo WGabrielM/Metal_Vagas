@@ -7,11 +7,11 @@ export default function WhatWeDo() {
       <div className="whatwedo">
         <div className="whatwedo__resume">
           <h1 className="whatwedo__resume--title">O que fazemos?</h1>
-          <span className="whatwedo__resume--subtitle">
+          <h2 className="whatwedo__resume--subtitle">
             Somos uma Plataforma que conecta empresas da área industrial que
             precisam contratar mão de Obra, e os melhores Profissionais do
             Mercado.
-          </span>
+          </h2>
           <p className="whatwedo__resume--text">
             A plataforma surgiu devido as dificuldades para encontrar Mão de
             Obra qualificada com rapidez e assertividade. Os processos de

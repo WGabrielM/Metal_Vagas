@@ -6,28 +6,33 @@ export default function ForProfessionals() {
     <>
       <div className="forprofessionals">
         <div className="forprofessionals__resume">
-          <h1 className="forprofessionals__resume--title">O que fazemos?</h1>
-          <span className="forprofessionals__resume--subtitle">
-            Somos uma Plataforma que conecta empresas da área industrial que
-            precisam contratar mão de Obra, e os melhores Profissionais do
-            Mercado.
-          </span>
+          <h1 className="forprofessionals__resume--title">
+            Para <span className="forprofessionals__bold">profissionais</span>
+          </h1>
+          <h2 className="forprofessionals__resume--subtitle">
+            Fizemos várias pesquisas com os Profissionais da indústria
+            metalmecânica, e descobrimos:
+          </h2>
           <p className="forprofessionals__resume--text">
-            A plataforma surgiu devido as dificuldades para encontrar Mão de
-            Obra qualificada com rapidez e assertividade. Os processos de
-            seleção ficam cada dia mais complexos e demorados, por isso
-            resolvemos criar algo simples e funcional , onde qualquer pessoa com
-            um celular na mão consegue anunciar, acompanhar e medir o alcance da
-            vaga.
+            Unimos especialistas com mais de 20 anos de experiencia em diversas
+            modalidade: Solda, Caldeiraria, Pintura, Mecânica etc.. Adicionamos
+            ao conhecimento deles Tecnologia e Inteligência Artificial, criando
+            uma ferramenta com filtros mais precisos, onde só o profissionais
+            que atendam os requisitos da vaga anunciada, podem se cadastrar.
+            Evitando o desperdício de tempo e recursos.
           </p>
-
-          <button className="forprofessionals__resume--link">Ver Mais</button>
         </div>
-        <div className="forprofessionals__video">
-          <video width="100%" controls autoPlay muted loop>
-            <source src="/src/videos/oquefazemos.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+        <div className="forprofessionals__list">
+          <div className="forprofessionals__list--card">
+            <img
+              src="/public/images/ForProfessionals/forprofessionals-charts.png"
+              alt="Lista chats"
+            />
+            <p>
+              Dos profissionais Metalmecanico conhecem a maior Rede social
+              Profissional, onde as empresas anunciam suas vagas
+            </p>
+          </div>
         </div>
       </div>
     </>

@@ -3,8 +3,8 @@
     background: linear-gradient(180deg, #FFA41D 0%, rgba(225, 150, 38, 0.60) 100%);
     display: block;
     margin: 0 auto;
-    width: 100vw;
-    height: 100vh;
+  
+    height: calc(100vh - 88px);
   
     .home__title {
       display: block;

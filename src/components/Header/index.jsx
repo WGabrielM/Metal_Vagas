@@ -8,7 +8,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="header">
+      <header className="header">
         <div className="logo"><p>Logo</p></div>
         <div className="menu">
           <button onClick={buttonClick} className="menu__button">
@@ -26,7 +26,7 @@ export default function Header() {
             </li>
           </ul>
         </div>
-      </div>
+      </header>
     </>
   );
 }

@@ -3,7 +3,7 @@ import "./style/Footer.css";
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className="footer__copy">
         <p>
           Copyright © 2023 <span>MetalVagas</span>
@@ -16,6 +16,6 @@ export default function Footer() {
         <img src="/public/images/Footer/Linkedin.png" alt="Linkedin" />
         <img src="/public/images/Footer/Youtube.png" alt="Youtube" />
       </div>
-    </div>
+    </footer>
   );
 }

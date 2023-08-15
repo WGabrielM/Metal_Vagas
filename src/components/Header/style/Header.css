@@ -6,7 +6,6 @@
   border-bottom: 1px solid #eedfdf;
   background-color: #ffa41d;
 
-  overflow: hidden;
   width: 100vw;
   height: 7vh;
 
@@ -22,15 +21,15 @@
       display: none;
 
       :nth-child(1) {
-        top: 16px;
+        top: 8px;
       }
 
       :nth-child(2) {
-        top: 23px;
+        top: 15px;
       }
       
       :nth-child(3) {
-        top: 30px;
+        top: 22px;
       }
 
 

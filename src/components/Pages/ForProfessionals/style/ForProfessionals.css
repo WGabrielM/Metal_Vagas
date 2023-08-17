@@ -72,14 +72,27 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     margin-top: 20px;
+
     .forprofessionals__list--card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
       border-top: 2px solid #1a52e4;
       background-color: #fff;
-      text-align: center;
+      text-align: inherit;
+
+      margin-bottom: 40px;
 
       width: 308px;
       height: 316px;
+
+      .img--card {
+        padding-bottom: 20px;
+      }
     }
   }
 }

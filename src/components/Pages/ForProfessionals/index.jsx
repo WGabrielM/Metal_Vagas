@@ -25,6 +25,7 @@ export default function ForProfessionals() {
         <div className="forprofessionals__list">
           <div className="forprofessionals__list--card">
             <img
+              className="img--card"
               src="/public/images/ForProfessionals/forprofessionals-charts.png"
               alt="Lista chats"
             />
@@ -35,7 +36,8 @@ export default function ForProfessionals() {
           </div>
           <div className="forprofessionals__list--card">
             <img
-              src="/public/images/ForProfessionals/forprofessionals-charts.png"
+              className="img--card"
+              src="/public/images/ForProfessionals/interface.png"
               alt="Lista chats"
             />
             <p>
@@ -45,7 +47,8 @@ export default function ForProfessionals() {
           </div>
           <div className="forprofessionals__list--card">
             <img
-              src="/public/images/ForProfessionals/forprofessionals-charts.png"
+              className="img--card"
+              src="/public/images/ForProfessionals/whatsapp.png"
               alt="Lista chats"
             />
             <p>
@@ -55,7 +58,8 @@ export default function ForProfessionals() {
           </div>
           <div className="forprofessionals__list--card">
             <img
-              src="/public/images/ForProfessionals/forprofessionals-charts.png"
+              className="img--card"
+              src="/public/images/ForProfessionals/view.png"
               alt="Lista chats"
             />
             <p>

@@ -5,6 +5,7 @@ import Home from "./components/Pages/Home";
 import NotFound from "./components/Pages/NotFound";
 import WhatWeDo from "./components/Pages/WhatWeDo";
 import ForCompanies from "./components/Pages/ForCompanies";
+import WhyMetalVagas from "./components/Pages/WhyMetalVagas";
 import ForProfessionals from "./components/Pages/ForProfessionals";
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/whatwedo" element={<WhatWeDo />} />
         <Route path="/forcompanies" element={<ForCompanies />} />
         <Route path="/forprofessionals" element={<ForProfessionals />} />
+        <Route path="/whymetalvagas" element={<WhyMetalVagas />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

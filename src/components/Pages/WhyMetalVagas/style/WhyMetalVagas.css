@@ -1,0 +1,122 @@
+.whymetalvagas {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  .whymetalvagas__bold {
+    color: #ffa41d;
+  }
+  .whymetalvagas__resume {
+    padding: 0 15px;
+    .whymetalvagas__resume--title {
+      color: #0c0b0b;
+
+      font-family: PoppinsBold;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 50px;
+      letter-spacing: 0.5px;
+
+      position: relative;
+
+      padding-top: 25px;
+      padding-bottom: 15px;
+    }
+
+    .whymetalvagas__resume--title::before {
+      content: "";
+      display: inline-block;
+      background: #ffa41d;
+      border-radius: 10px;
+      width: 74px;
+      height: 6px;
+
+      position: absolute;
+      top: 13px;
+    }
+    .whymetalvagas__resume--subtitle {
+      color: #888484;
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 22px;
+      letter-spacing: 0.8px;
+    }
+
+    .whymetalvagas__resume--link {
+      color: #fff;
+      background: linear-gradient(51deg, #ffa41d 0%, #ffad33 100%);
+      border-radius: 20px;
+      border: 0;
+      box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.76);
+
+      position: absolute;
+      right: 123px;
+
+      margin-top: 15px;
+      padding: 10px 40px;
+    }
+  }
+
+  .whymetalvagas__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    .whymetalvagas__list--card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      border-top: 2px solid #1a52e4;
+      background-color: #fff;
+      text-align: inherit;
+
+      margin-bottom: 40px;
+
+      width: 308px;
+      height: 316px;
+
+      .img--card {
+        padding-bottom: 20px;
+      }
+
+      .title--card {
+        color: #000;
+        text-align: center;
+        font-family: PoppinsBold;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px; /* 110% */
+        letter-spacing: 0.5px;
+
+        padding-bottom: 10px;
+      }
+
+      .text--card {
+        color: #000;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0.5px;
+      }
+    }
+  }
+
+  .whymetalvagas__resume--link {
+    color: #fff;
+    background: linear-gradient(51deg, #ffa41d 0%, #ffad33 100%);
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.76);
+
+    margin: 10px auto 40px;
+    padding: 10px 40px;
+  }
+}

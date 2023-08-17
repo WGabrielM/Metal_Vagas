@@ -33,6 +33,36 @@ export default function ForProfessionals() {
               Profissional, onde as empresas anunciam suas vagas
             </p>
           </div>
+          <div className="forprofessionals__list--card">
+            <img
+              src="/public/images/ForProfessionals/forprofessionals-charts.png"
+              alt="Lista chats"
+            />
+            <p>
+              Dos profissionais Metalmecanico conhecem a maior Rede social
+              Profissional, onde as empresas anunciam suas vagas
+            </p>
+          </div>
+          <div className="forprofessionals__list--card">
+            <img
+              src="/public/images/ForProfessionals/forprofessionals-charts.png"
+              alt="Lista chats"
+            />
+            <p>
+              Dos profissionais Metalmecanico conhecem a maior Rede social
+              Profissional, onde as empresas anunciam suas vagas
+            </p>
+          </div>
+          <div className="forprofessionals__list--card">
+            <img
+              src="/public/images/ForProfessionals/forprofessionals-charts.png"
+              alt="Lista chats"
+            />
+            <p>
+              Dos profissionais Metalmecanico conhecem a maior Rede social
+              Profissional, onde as empresas anunciam suas vagas
+            </p>
+          </div>
         </div>
       </div>
     </>

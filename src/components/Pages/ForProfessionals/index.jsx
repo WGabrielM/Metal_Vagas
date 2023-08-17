@@ -29,7 +29,7 @@ export default function ForProfessionals() {
               src="/public/images/ForProfessionals/forprofessionals-charts.png"
               alt="Lista chats"
             />
-            <p>
+            <p className="text--card">
               Dos profissionais Metalmecanico conhecem a maior Rede social
               Profissional, onde as empresas anunciam suas vagas
             </p>
@@ -40,7 +40,7 @@ export default function ForProfessionals() {
               src="/public/images/ForProfessionals/interface.png"
               alt="Lista chats"
             />
-            <p>
+            <p className="text--card">
               Dos profissionais Metalmecanico conhecem a maior Rede social
               Profissional, onde as empresas anunciam suas vagas
             </p>
@@ -51,7 +51,7 @@ export default function ForProfessionals() {
               src="/public/images/ForProfessionals/whatsapp.png"
               alt="Lista chats"
             />
-            <p>
+            <p className="text--card">
               Dos profissionais Metalmecanico conhecem a maior Rede social
               Profissional, onde as empresas anunciam suas vagas
             </p>
@@ -62,12 +62,13 @@ export default function ForProfessionals() {
               src="/public/images/ForProfessionals/view.png"
               alt="Lista chats"
             />
-            <p>
+            <p className="text--card">
               Dos profissionais Metalmecanico conhecem a maior Rede social
               Profissional, onde as empresas anunciam suas vagas
             </p>
           </div>
         </div>
+        <button className="forprofessionals__resume--link">Fale com um Atendente</button>
       </div>
     </>
   );

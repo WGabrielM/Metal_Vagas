@@ -35,6 +35,11 @@ export default function AboutUs() {
           </p>
         </div>
       </div>
+      <div className="aboutus__help">
+        <div className="aboutus__help--block">
+          
+        </div>
+      </div>
     </div>
   );
 }

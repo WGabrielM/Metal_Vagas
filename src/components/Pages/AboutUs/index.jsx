@@ -37,7 +37,7 @@ export default function AboutUs() {
       </div>
       <div className="aboutus__help">
         <div className="aboutus__help--block">
-          
+          <p className="text--block">Como funciona para empresas</p>
         </div>
       </div>
     </div>

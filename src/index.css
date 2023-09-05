@@ -60,3 +60,8 @@ table {
     src: local('PoppinsItalic'), url(./fonts/Poppins/Poppins-Italic.ttf) format('ttf');
     font-style: italic;
 }
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter'), url(./fonts/Inter/Inter-Regular.ttf) format('ttf');
+    font-style: normal;
+}

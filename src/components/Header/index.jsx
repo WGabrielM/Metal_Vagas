@@ -1,32 +1,14 @@
 import React from "react";
 import "./style/Header.css";
+import Menu from "../Menu";
 
 export default function Header() {
-  const buttonClick = () => {
-    document.querySelector(".menu__item").classList.toggle("ativo");
-  };
-
   return (
-    <>
-      <header className="header">
-        <div className="logo"><p>Logo</p></div>
-        <div className="menu">
-          <button onClick={buttonClick} className="menu__button">
-            <span className="menu__button--target"></span>
-            <span className="menu__button--target"></span>
-            <span className="menu__button--target"></span>
-          </button>
-          <ul className="menu__item">
-            <li className="menu__item--link"> <a href="/whatwedo">O que fazemos</a></li>
-            <li className="menu__item--link"> <a href="">Para empresas</a></li>
-            <li className="menu__item--link"> <a href="">Para profissionais</a></li>
-            <li className="menu__item--link"> <a href="">Como funciona</a></li>
-            <li className="menu__item--link">
-              <span>Anunciar Vagas</span>
-            </li>
-          </ul>
-        </div>
-      </header>
-    </>
+    <header className="header">
+      <div className="logo">
+        <p>Logo</p>
+      </div>
+      {/* <Menu /> */}
+    </header>
   );
 }

@@ -2,6 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+
+  @media screen and (min-width: 768px) {
+    flex-wrap: nowrap;
+    padding: 0 20px;
+  }
   .whatwedo__resume {
     padding: 0 15px;
     .whatwedo__resume--title {

@@ -1,17 +1,15 @@
 import React from "react";
-import "./style/ButtonDefault.css"
-import PropTypes from 'prop-types';
+import "./style/ButtonDefault.css";
+import PropTypes from "prop-types";
 
 export default function ButtonDefault({ text }) {
-  return (
-    <button className="buttonDefault">{text}</button>
-  )
+  return <button className="buttonDefault">{text}</button>;
 }
 
 ButtonDefault.propTypes = {
-    text: PropTypes.string,
-}
+  text: PropTypes.string,
+};
 
 ButtonDefault.defaultProps = {
-    text: '',
-}
+  text: "",
+};

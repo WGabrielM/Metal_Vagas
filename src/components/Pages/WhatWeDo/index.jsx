@@ -18,7 +18,6 @@ export default function WhatWeDo() {
         simples e funcional , onde qualquer pessoa com um celular na mão
         consegue anunciar, acompanhar e medir o alcance da vaga."
         />
-
         <ButtonDefault text="Ver mais" />
       </div>
       <div className="whatwedo__video">

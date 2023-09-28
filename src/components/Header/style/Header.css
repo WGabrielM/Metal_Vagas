@@ -11,6 +11,10 @@
 
   overflow: hidden;
 
+  @media screen and (min-width: 768px) {
+    height: 118px;
+  }
+
   .logo {
     color: #fff;
     margin-left: 5px;

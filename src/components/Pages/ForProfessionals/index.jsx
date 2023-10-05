@@ -1,6 +1,7 @@
 import React from "react";
 import "./style/ForProfessionals.css";
 import TextArea from "../../TextArea";
+import ButtonDefault from "../../ButtonDefault";
 
 export default function ForProfessionals() {
   return (
@@ -18,7 +19,7 @@ export default function ForProfessionals() {
           o desperdício de tempo e recursos."
         />
       </div>
-      
+
       <div className="forprofessionals__list">
         <div className="forprofessionals__list--card">
           <img
@@ -65,9 +66,8 @@ export default function ForProfessionals() {
           </p>
         </div>
       </div>
-      <button className="forprofessionals__resume--link">
-        Fale com um Atendente
-      </button>
+
+      <ButtonDefault text="Falar com um Atendente" />
     </div>
   );
 }

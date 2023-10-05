@@ -46,22 +46,22 @@ table {
 
 // Fonts
 @font-face {
-    font-family: 'Poppins';
+    font-family: Poppins;
     src: local('Poppins'), url(./fonts/Poppins/Poppins-Regular.ttf) format('truetype');
     font-style: normal;
 }
 @font-face {
-    font-family: 'PoppinsBold';
+    font-family: PoppinsBold;
     src: local('PoppinsBold'), url(./fonts/Poppins/Poppins-Bold.ttf) format('truetype');
     font-weight: bold;
 }
 @font-face {
-    font-family: 'PoppinsItalic';
+    font-family: PoppinsItalic;
     src: local('PoppinsItalic'), url(./fonts/Poppins/Poppins-Italic.ttf) format('truetype');
     font-style: italic;
 }
 @font-face {
-    font-family: 'Inter';
+    font-family: Inter;
     src: local('Inter'), url(./fonts/Inter/Inter-Regular.ttf) format('truetype');
     font-style: normal;
 }

@@ -5,7 +5,8 @@ import TextArea from "../../TextArea";
 export default function ForCompanies() {
   return (
     <div className="forcompanies">
-      <TextArea
+      <div className="forcompanies__resume">
+        <TextArea
           title="Para empresas"
           subTitle="Encontre os melhores profissionais disponíveis no mercado."
           text="Unimos especialistas com mais de 20 anos de experiencia em diversas
@@ -14,12 +15,14 @@ export default function ForCompanies() {
           o profissionais que atendam os requisitos da vaga anunciada, podem se
           cadastrar. Evitando o desperdício de tempo e recursos."
         />
+      </div>
 
-      <img
-        className="forcompanies__image"
-        src="/src/assets/images/forcompanies.png"
-        alt="For companies website"
-      />
+      <div className="forcompanies__image">
+        <img
+          src="/src/assets/images/forcompanies.png"
+          alt="For companies website"
+        />
+      </div>
     </div>
   );
 }

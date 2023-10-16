@@ -1,18 +1,19 @@
 import React from "react";
 import "./style/WhyMetalVagas.css";
+import TextArea from "../../TextArea";
+import ButtonDefault from "../../ButtonDefault";
 
 export default function WhyMetalVagas() {
   return (
     <div className="whymetalvagas">
       <div className="whymetalvagas__resume">
-        <h1 className="whymetalvagas__resume--title">
-          Por que a <span className="whymetalvagas__bold">Metal</span>Vagas
-        </h1>
-        <h2 className="whymetalvagas__resume--subtitle">
-          Nossa Missão é “Tornar a seleção de um profissional qualificado muito
-          mais facil.
-        </h2>
+       <TextArea
+          title="Por que a Metal Vagas"
+          subTitle="Nossa Missão é “Tornar a seleção de um profissional qualificado muito
+          mais facil."
+        />
       </div>
+
       <div className="whymetalvagas__list">
         <div className="whymetalvagas__list--card">
           <img
@@ -62,9 +63,8 @@ export default function WhyMetalVagas() {
           </p>
         </div>
       </div>
-      <button className="whymetalvagas__resume--link">
-        Fale com um Atendente
-      </button>
+
+      <ButtonDefault text="Fale com um Atendente" />
     </div>
   );
 }

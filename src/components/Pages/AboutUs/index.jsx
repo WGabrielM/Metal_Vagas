@@ -1,11 +1,14 @@
 import React from "react";
 import "./style/AboutUs.css";
+import TextArea from "../../TextArea";
 
 export default function AboutUs() {
   return (
     <div className="aboutus">
       <div className="aboutus__resume">
-        <h1 className="aboutus__resume--title">O que falam sobre nós?</h1>
+        <TextArea
+          title="O que falam sobre nós?"
+        />
       </div>
       <div className="aboutus__list">
         <div className="aboutus__list--card">
